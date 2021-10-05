@@ -299,11 +299,14 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 
 .navbar-brand img {
     max-height: 200px;
-    margin: 0 5px 0 0;
+    margin: 0 5px 0 20px;
     display: inline;
 }
 
@@ -961,6 +964,8 @@ h4 {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
+
+    
     .navbar-brand img {
         max-height: 40px;
         width: auto;
