@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    min-width: 375px;
 
 }
 
@@ -47,6 +48,8 @@ a:hover {
 
 .bloc-lg {
     padding: 100px 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .bloc-md {
@@ -276,12 +279,16 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+
 }
 
 #bloc-1-hero h1 {
@@ -656,6 +663,7 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+    
 }
 
 .container {
@@ -747,6 +755,8 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    display: flex;
+    justify-content: center;
 }
 
 .portfolio-thumb {
@@ -789,6 +799,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #333333!important;
+    
 }
 
 .btn-atomic-tangerine:hover {
@@ -1022,6 +1033,10 @@ h4 {
     }
     form {
         padding: 5px;
+        
+        
+        
+        
     }
     .close-lightbox {
         display: inline-block;
