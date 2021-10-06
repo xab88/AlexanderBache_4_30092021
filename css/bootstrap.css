@@ -1384,7 +1384,7 @@ th {
 }
 
 html {
-    font-size: 10px;
+    font-size: 12px;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
@@ -7682,10 +7682,10 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #fff;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .carousel-indicators .active {
