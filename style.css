@@ -664,6 +664,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    position: relative;
 }
 
 .hero-bloc-text-sub {
@@ -683,10 +684,15 @@ a {
 p {
     font-size: 14px;
 }
+.site-navigation a{
+    font-size: 16px;
+    font-family: "open sans";
+}
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    position: relative;
 }
 
 .h1 {
@@ -779,7 +785,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
