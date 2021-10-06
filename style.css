@@ -48,8 +48,7 @@ a:hover {
 
 .bloc-lg {
     padding: 100px 50px;
-    display: flex;
-    justify-content: center;
+  
 }
 
 .bloc-md {
@@ -488,6 +487,14 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    
+}
+
+.footer-title{
+    color: #333333;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 .icon-lg {
@@ -755,8 +762,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
-    display: flex;
-    justify-content: center;
+   
 }
 
 .portfolio-thumb {
