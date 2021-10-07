@@ -347,6 +347,7 @@ a:hover {
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+    
 }
 
 .nav > li a:hover,
@@ -795,6 +796,11 @@ h4 {
     background-color: #FFFFFF;
 }
 
+.text-quote{
+    font-style: italic;
+    text-transform: uppercase;
+    
+}
 
 
 .bgc-atomic-tangerine {

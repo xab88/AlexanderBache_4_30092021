@@ -1660,6 +1660,8 @@ mark {
 
 .text-center {
     text-align: center;
+    margin-right: 2em;
+    margin-left: 2em;
 }
 
 .text-justify {
@@ -5246,13 +5248,14 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-nav {
-    margin: 7.5px -15px
+    margin: 7.5px 0
 }
 
 .navbar-nav>li>a {
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 20px
+    
 }
 
 @media (max-width:767px) {
