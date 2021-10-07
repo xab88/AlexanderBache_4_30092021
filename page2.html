@@ -20,6 +20,7 @@
 	<script async src="./js/blocs.min.js"></script>
 	<script async src="./js/jqBootstrapValidation.js"></script>
 	<script async src="./js/formHandler.js"></script>
+	
     <title>Contact</title>
 
  <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -80,24 +81,24 @@
 						<label>
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" class="form-control" title="votre nom" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" class="form-control" type="email" title="votre mail" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" title="comment vous nous connaissez" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" title="votre projet" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -120,40 +121,37 @@
 
 
 <!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-	<div class="container bloc-sm footer-bloc">
-		<div class="row">
-			<div class="col-sm-12">
+<div class=" bgc-atomic-tangerine" id="bloc-8">
+	<div class="bloc-sm">			
 				<p class="text-center">
 					La chouette agence - Agence web basée à Lyon.
 				</p>
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md" alt="logo twitter"></span></a>
+							<a class="social" id="lien_vers_twitter" title="twitter" href="https://twitter.com/"><span class="fa fa-twitter icon-md" ></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md" alt="logo facebook"></span></a>
+							<a class="social" id="lien_vers_facebook" title="Facebook" href="https://www.facebook.com/"><span class="fa fa-facebook icon-md" ></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md" alt="logo dribbble"></span></a>
+							<a class="social" id="lien_vers_dribbble" title="Dribbble" href="https://dribbble.com/"><span class="fa fa-dribbble icon-md" ></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md" alt="logo instagram"></span></a>
+							<a class="social" id="lien_vers_instagram" title="Instagram" href="https://www.instagram.com/"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
+				</div>		
 	</div>
 </div>
 <!-- Footer - bloc-8 END -->
+
 
 </div>
 <!-- Principal conteneur END -->
