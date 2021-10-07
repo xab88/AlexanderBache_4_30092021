@@ -57,6 +57,12 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+    
+}
+
+.footer-bloc{
+    display: flex;
+    justify-content: center;
 }
 
 .bg-center,
@@ -280,6 +286,7 @@ a:hover {
     margin-left: 0;
     display: flex;
     justify-content: space-around;
+    color: #000000;
 
 }
 
@@ -490,12 +497,7 @@ button {
     
 }
 
-.footer-title{
-    color: #333333;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-}
+
 
 .icon-lg {
     font-size: 60px!important;
@@ -669,7 +671,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
     
 }
 
@@ -727,6 +729,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    
 }
 
 h2 {
@@ -800,6 +803,7 @@ h4 {
 
 .tc-white {
     color: #ffffff!important;
+    position: relative;
 }
 
 .btn-atomic-tangerine {

@@ -708,11 +708,13 @@
 }
 
 .fa-twitter-square:before {
-    content: "\f081"
+    content: "\f081";
+    
 }
 
 .fa-facebook-square:before {
-    content: "\f082"
+    content: "\f082";
+    
 }
 
 .fa-camera-retro:before {
