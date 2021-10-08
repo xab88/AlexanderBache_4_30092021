@@ -24,9 +24,8 @@ Les entreprises les entrepreneurs créatifs dans la région lyonnaise souhaitant
 
 ## Identité graphique
 
-Polices<br/>
-Logo et titres: <br/>
-Texte:
+Polices:<br/>
+Helvetica
 
 ## Couleurs
 
