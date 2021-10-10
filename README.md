@@ -1,4 +1,4 @@
-![project Image](img/logo.webp)
+![project Image](img/logo.webp) </br> <strong>LA CHOUETTE AGENCE</strong>
 
 ---
 
